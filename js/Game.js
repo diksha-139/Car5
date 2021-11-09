@@ -84,7 +84,7 @@ class Game {
         cars[index - 1].position.x = x;
         cars[index - 1].position.y = y;
 
-        // C38  SA
+        // marking the players
         if (index === player.index) {
           stroke(10);
           fill("red");
